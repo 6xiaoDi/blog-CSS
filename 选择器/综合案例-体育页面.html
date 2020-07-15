@@ -23,6 +23,7 @@
 		.people {
 			/*color: #990000;*/
 			color: #900;
+			text-decoration: underline;
 		}
 		.search {
 			color: red;
@@ -39,8 +40,15 @@
 		}
 		
 		p {
-			/*行高(间距) */
+			/*行高 */
 			line-height: 26px;
+			/*首行缩进2个字的距离 em 是倍数关系，  1em 就是1个字的距离 2em 就是2个字的宽度*/
+			text-indent: 2em;
+		}
+
+		a {
+			 /*取消下划线  a 默认自带下划线的*/
+			text-decoration: none;
 		}
 
 	</style>
