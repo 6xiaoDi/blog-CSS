@@ -30,17 +30,24 @@
 			padding: 5px 0;
 			/*底边框*/
 			border-bottom: 1px solid #ccc;
+			margin-bottom: 10px;
 		}
 		.box ul li {
 			height: 30px;
 			line-height: 30px;
 			/*background-color: pink;*/
 			border-bottom: 1px dashed #ccc;
+			/*background-position: 5px center ; 可简写到background里 */
+			background: url(images/arr.jpg) no-repeat 5px center;
+			/*因为这个li 没有宽度 所以padding 不会撑开盒子*/
+			padding-left: 20px;
 		}
 		.box ul li a {
 			color: #333;
 			font-size: 12px;
 			text-decoration: none;
+			/*margin-left: 20px;*/
+			/*padding-left: 20px;*/
 		}
 		.box ul li a:hover {
 			text-decoration: underline;
