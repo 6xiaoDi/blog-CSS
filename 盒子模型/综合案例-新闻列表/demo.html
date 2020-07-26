@@ -9,6 +9,10 @@
 			margin: 0;
 			padding: 0;
 		}
+		/*取消列表样式*/
+		li {
+			list-style: none;
+		}
 		.box {
 			width: 298px;
 			height: 196px;
@@ -26,6 +30,20 @@
 			padding: 5px 0;
 			/*底边框*/
 			border-bottom: 1px solid #ccc;
+		}
+		.box ul li {
+			height: 30px;
+			line-height: 30px;
+			/*background-color: pink;*/
+			border-bottom: 1px dashed #ccc;
+		}
+		.box ul li a {
+			color: #333;
+			font-size: 12px;
+			text-decoration: none;
+		}
+		.box ul li a:hover {
+			text-decoration: underline;
 		}
 	</style>
 </head>
