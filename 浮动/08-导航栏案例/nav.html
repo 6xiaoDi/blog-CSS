@@ -28,6 +28,27 @@
 			/*因为li 让文字竖着显示，所以必须给li 添加浮动*/
 			float: left;
 		}
+		.nav ul li a {
+			/*a是行内元素需要转换*/
+			/*一定给a 大小，  因为我们需要 a:hover*/
+			display: block;
+			width: 80px;
+			/* 文字垂直居中 */
+			line-height: 32px;
+			height: 32px;
+			/*background-color: pink;*/
+			background: url(images/button1.jpg) no-repeat;
+			font-size: 12px;
+			text-decoration: none;
+			/*字体颜色*/
+			color: #40510a;
+			text-align: center;
+
+		}
+		/*鼠标经过的背景图片*/
+		.nav ul li a:hover {
+			background-image: url(images/button2.jpg);
+		}
 	</style>
 </head>
 <body>
