@@ -1,0 +1,6 @@
+/*css 初始化代码 css reset*/
+/*清除元素默认的内外边距*/
+* {
+	margin: 0;
+	padding: 0;
+}
