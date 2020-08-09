@@ -4,6 +4,10 @@
 	margin: 0;
 	padding: 0;
 }
+/*清除列表样式*/
+li {
+	list-style: none;
+}
 body {
 	background-color: #f3f5f7;
 }
@@ -18,4 +22,21 @@ body {
 	height: 42px;
 	background-color: pink;
 	margin: 30px auto;
+}
+.logo {
+	float: left;
+	margin-right: 70px;
+}
+.nav {
+	float: left;
+}
+.nav ul li {
+	float: left;
+}
+.nav ul li a {
+	display: block;
+	height: 40px;
+	padding: 0 9px;
+	line-height: 40px;
+	text-decoration: none;
 }
