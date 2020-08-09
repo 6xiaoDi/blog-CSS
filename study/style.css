@@ -4,3 +4,14 @@
 	margin: 0;
 	padding: 0;
 }
+/*版心 12000 水平居中*/
+.w {
+	width: 1200px;
+	/*水平居中对齐*/
+	margin: auto;
+}
+.header {
+	width: 1200px;
+	height: 42px;
+	background-color: pink;
+}
