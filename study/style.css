@@ -24,7 +24,6 @@ body {
 .header {
 	width: 1200px;
 	height: 42px;
-	background-color: pink;
 	margin: 30px auto;
 }
 .logo {
@@ -69,4 +68,12 @@ body {
 	width: 50px;
 	height: 42px;
 	background: url(images/btn.png);
+}
+.user {
+	float: left;
+	height: 42px;
+	line-height: 42px;
+	margin-left: 31px;
+	font-size: 14px;
+	color: #666;
 }
