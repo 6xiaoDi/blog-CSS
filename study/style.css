@@ -80,6 +80,6 @@ body {
 /*banner start*/
 .banner {
 	height: 420px;
-	background: #1c036c;
+	background: #1c036c url(images/banner2.jpg) no-repeat top center;
 }
 /*banner end*/
