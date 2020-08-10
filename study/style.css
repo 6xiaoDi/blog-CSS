@@ -196,3 +196,13 @@ a {
 	color: #00a4ff;
 }
 /*goods end*/
+/*box start*/
+.box {
+	margin-top: 15px;
+}
+.box-hd {
+	height: 60px;
+	line-height: 60px;
+	background-color: pink;
+}
+/*box end */
