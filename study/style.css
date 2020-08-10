@@ -115,5 +115,12 @@ body {
 .course-hd {
 	height: 48px;
 	background-color: #9bceea;
+	font-size: 18px;
+	text-align: center;
+	line-height: 48px;
+	color: #fff;
+	/*文字加粗*/
+	/*font-weight: bold;*/
+	font-weight: 700;
 }
 /*banner end*/
