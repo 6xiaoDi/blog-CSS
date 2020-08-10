@@ -127,4 +127,9 @@ body {
 	/*没有宽度的盒子 padding 不会撑开盒子*/
 	padding: 0 14px;
 }
+.course-bd li {
+	/*行高等与高度 只能让单行文本垂直居中*/
+	height: 50px;
+	border-bottom: 1px solid #ccc;
+}
 /*banner end*/
