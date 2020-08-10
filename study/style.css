@@ -20,6 +20,18 @@ body {
 a {
 	text-decoration: none;
 }
+/*清除浮动的*/
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+.clearfix {
+	*zoom: 1;
+}
 /*版心 12000 水平居中*/
 .w {
 	width: 1200px;
@@ -251,3 +263,8 @@ a {
 	color: orange;
 }
 /*box end */
+.test{
+	width: 1300px;
+	height: 400px;
+	background-color: #000000;
+}
