@@ -40,3 +40,7 @@ body {
 	line-height: 40px;
 	text-decoration: none;
 }
+/*鼠标经过链接 才有底边框*/
+.nav ul li a:hover {
+	border-bottom: 2px solid #00a4ff;
+}
