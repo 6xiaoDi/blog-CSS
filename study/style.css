@@ -77,3 +77,9 @@ body {
 	font-size: 14px;
 	color: #666;
 }
+/*banner start*/
+.banner {
+	height: 420px;
+	background: #1c036c;
+}
+/*banner end*/
