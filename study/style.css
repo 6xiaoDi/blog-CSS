@@ -112,7 +112,7 @@ a {
 	float: right;
 	width: 228px;
 	height: 300px;
-	background-color: pink;
+	background-color: #fff;
 	margin-top: 50px;
 }
 .course-hd {
@@ -158,5 +158,9 @@ a {
 	color:  #00a4ff;
 	text-align: center;
 	line-height: 38px;
+}
+.all:hover {
+	background-color: #00a4ff;
+	color: #fff;
 }
 /*banner end*/
