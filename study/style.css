@@ -180,4 +180,13 @@ a {
 	color: #00a4ff;
 
 }
+.goods-item {
+	float: left;
+	color: #bfbfbf;
+}
+.goods-item a {
+	font-size: 16px;
+	color: #050505;
+	margin: 0 30px;
+}
 /*goods end*/
