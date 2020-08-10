@@ -38,6 +38,8 @@ body {
 	height: 40px;
 	padding: 0 9px;
 	line-height: 40px;
+	font-size: 18px;
+	color: #050505;
 	text-decoration: none;
 }
 /*鼠标经过链接 才有底边框*/
