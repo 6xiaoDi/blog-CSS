@@ -47,3 +47,20 @@ body {
 .nav ul li a:hover {
 	border-bottom: 2px solid #00a4ff;
 }
+.search {
+	float: left;
+	margin-left: 60px;
+}
+.search input {
+	float: left;
+	width: 340px;
+	height: 40px;
+	border: 1px solid #00a4ff;
+	padding-left: 20px;
+	color: #ccc;
+}
+.search button {
+	float: left;
+	width: 50px;
+	height: 42px;
+}
