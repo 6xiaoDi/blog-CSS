@@ -267,7 +267,10 @@ a {
 .footer {
 	height: 384px;
 	padding-top: 33px;
-	background-color: pink;
+	background-color: #fff;
+}
+.copyright {
+	float: left;
 }
 .copyright p {
 	font-size: 12px;
@@ -283,4 +286,23 @@ a {
 	line-height: 34px;
 	font-size: 16px;
 	color: #00a4ff;
+}
+.links {
+	float: right;
+}
+.links  dl {
+	float: left;
+	margin-left: 100px;
+}
+.links  dt {
+	height: 35px;
+	font-size: 16px;
+	color: #333;
+}
+.links  dd a {
+	font-size: 12px;
+	color: #333;
+}
+.links  dd a:hover {
+	color: #004aff;
 }
