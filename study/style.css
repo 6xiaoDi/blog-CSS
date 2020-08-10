@@ -83,8 +83,10 @@ body {
 	background: #1c036c url(images/banner2.jpg) no-repeat top center;
 }
 .subnav {
-	width: 190px;
+	width: 150px;
 	height: 420px;
-	background-color: pink;
+	padding: 0 20px;
+	/*背景半透明*/
+	background: rgba(0, 0, 0, .3);
 }
 /*banner end*/
