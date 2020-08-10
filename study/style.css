@@ -221,6 +221,8 @@ a {
 	color: #a5a5a5;
 }
 .box-bd {
+	/*box-bd 宽度 超过了 版心 1200 是可以的，就就解决了问题*/
+	width: 1215px;
 }
 .box-bd li {
 	float: left;
