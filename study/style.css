@@ -14,8 +14,6 @@ button {
 }
 body {
 	background-color: #f3f5f7;
-	/*方便写代码 一会别忘了删除*/
-	height: 3000px;
 }
 a {
 	text-decoration: none;
