@@ -8,6 +8,10 @@
 li {
 	list-style: none;
 }
+/*去掉button 默认自带的边框*/
+button {
+	border: none;
+}
 body {
 	background-color: #f3f5f7;
 }
@@ -56,6 +60,7 @@ body {
 	width: 340px;
 	height: 40px;
 	border: 1px solid #00a4ff;
+	border-right: 0;
 	padding-left: 20px;
 	color: #ccc;
 }
@@ -63,4 +68,5 @@ body {
 	float: left;
 	width: 50px;
 	height: 42px;
+	background: url(images/btn.png);
 }
