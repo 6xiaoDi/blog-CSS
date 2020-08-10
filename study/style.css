@@ -263,8 +263,9 @@ a {
 	color: orange;
 }
 /*box end */
-.test{
-	width: 1300px;
-	height: 400px;
-	background-color: #000000;
+/*footer*/
+.footer {
+	height: 384px;
+	padding-top: 33px;
+	background-color: pink;
 }
