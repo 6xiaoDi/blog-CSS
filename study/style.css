@@ -123,4 +123,8 @@ body {
 	/*font-weight: bold;*/
 	font-weight: 700;
 }
+.course-bd {
+	/*没有宽度的盒子 padding 不会撑开盒子*/
+	padding: 0 14px;
+}
 /*banner end*/
