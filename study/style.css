@@ -89,4 +89,19 @@ body {
 	/*背景半透明*/
 	background: rgba(0, 0, 0, .3);
 }
+.subnav li {
+	height: 45px;
+	line-height: 45px;
+}
+.subnav li a {
+	color: #fff;
+	font-size: 14px;
+	text-decoration: none;
+}
+.subnav li a:hover {
+	color: #00b4ff;
+}
+.subnav  span {
+	float: right;
+}
 /*banner end*/
