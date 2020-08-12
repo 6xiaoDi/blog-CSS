@@ -9,16 +9,28 @@
 			padding: 0;
 		}
 		.taobao {
+			position: relative;
 			width: 520px;
 			height: 280px;
 			background-color: pink;
 			/*居中对齐*/
 			margin: 100px auto;
 		}
+		.arrow-l{
+			position: absolute;
+			top: 50%;
+			margin-top: -15px;
+			left: 0;
+			width: 20px;
+			height: 30px;
+			background-color: pink;
+		}
 	</style>
 </head>
 <body>
 	<div class="taobao">
+		<!-- 左按钮  小于号 -->
+		<a href="#" class="arrow-l"> &lt; </a>
 		<!-- 图片 -->
 		<img src="images/taobao.jpg" alt="">
 	</div>
