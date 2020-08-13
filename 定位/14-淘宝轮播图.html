@@ -16,7 +16,8 @@
 			/*居中对齐*/
 			margin: 100px auto;
 		}
-		.arrow-l{
+		.arrow-l,
+		.arrow-r{
 			position: absolute;
 			top: 50%;
 			margin-top: -15px;
@@ -25,11 +26,11 @@
 			background: rgba(0, 0, 0, .2);
 			text-decoration: none;
 			color: #fff;
-			text-align: center;
 			line-height: 30px;
 		}
 		.arrow-l {
 			left: 0;
+			text-align: left;
 			/*圆角矩形*/
 			/*border-radius: 15px;*/
 			/*右上角*/
@@ -37,12 +38,22 @@
 			/*右下角*/
 			border-bottom-right-radius: 15px;
 		}
+		.arrow-r {
+			right: 0;
+			text-align: right;
+			/*圆角矩形*/
+			/*border-radius: 15px;*/
+			/*border-radius: 左上角 右上角  右下角  左下角;*/
+			border-radius: 15px 0 0 15px;
+		}
 	</style>
 </head>
 <body>
 	<div class="taobao">
 		<!-- 左按钮  小于号 -->
 		<a href="#" class="arrow-l"> &lt; </a>
+		<!-- 右按钮 -->
+		<a href="#" class="arrow-r"> &gt; </a>
 		<!-- 图片 -->
 		<img src="images/taobao.jpg" alt="">
 	</div>
