@@ -8,6 +8,10 @@
 li {
 	list-style: none;
 }
+/*取消轮廓线*/
+input {
+	outline: none;
+}
 /*去掉button 默认自带的边框*/
 button {
 	border: none;
