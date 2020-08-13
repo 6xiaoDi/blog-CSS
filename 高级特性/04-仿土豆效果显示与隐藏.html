@@ -11,19 +11,25 @@
 			margin: 100px auto;
 		}
 		.mask {
+			display: none;
 			position: absolute;
 			top: 0;
 			left: 0;
 			width: 222px;
 			height: 220px;
-			background-color: pink;
+			background: rgba(0, 0, 0, .3) url("images/arr.png") no-repeat center center;
+		}
+		.box a:hover .mask{
+			display: block;
 		}
 	</style>
 </head>
 <body>
 	<div class="box">
-		<div class="mask"></div>
-		<img src="images/3.jpg" alt="">
+		<a href="#">
+			<div class="mask"></div>
+			<img src="images/3.jpg" alt="">
+		</a>
 	</div>
 </body>
 </html>
