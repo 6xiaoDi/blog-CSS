@@ -36,6 +36,16 @@ a {
 	/*水平居中对齐*/
 	margin: auto;
 }
+.fixedbar {
+	position: fixed;
+	top: 0;
+	left: 50%;
+	margin-left: -790px;
+	z-index: 999;
+	width: 180px;
+	height: 420px;
+	background-color: pink;
+}
 .header {
 	width: 1200px;
 	height: 42px;
