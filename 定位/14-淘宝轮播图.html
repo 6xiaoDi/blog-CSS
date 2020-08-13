@@ -8,6 +8,9 @@
 			margin: 0;
 			padding: 0;
 		}
+		li {
+			list-style: none;
+		}
 		.taobao {
 			position: relative;
 			width: 520px;
@@ -60,6 +63,17 @@
 			background: rgba(255, 255, 255, 0.3);
 			border-radius: 7px;
 		}
+		.circle li {
+			float: left;
+			width: 8px;
+			height: 8px;
+			background-color: #fff;
+			margin: 3px;
+			border-radius: 50%;
+		}
+		.current {
+			background-color: #ff5000;
+		}
 	</style>
 </head>
 <body>
@@ -72,7 +86,11 @@
 		<img src="images/taobao.jpg" alt="">
 		<!-- 小圆点 -->
 		<ul class="circle">
-
+			<li></li>
+			<li class="current"></li>
+			<li></li>
+			<li></li>
+			<li></li>
 		</ul>
 	</div>
 </body>
