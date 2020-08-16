@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+       /*div :nth-child(1) {*/
+       /*     background-color: pink;*/
+       /* }*/
+
+       /*div :nth-child(2) {*/
+       /*   background-color: purple;*/
+       /*}*/
+
+        /*div span:nth-child(1) {*/
+        /*    background-color: pink;*/
+        /*}*/
+        
+        /*div span:nth-child(2) {*/
+        /*    background-color: pink;*/
+        /*}*/
+        /* of-type 选择指定类型的元素 */
+        
+        div span:first-of-type {
+            background-color: purple;
+        }
+        
+        div span:last-of-type {
+            background-color: skyblue;
+        }
+        
+        div span:nth-of-type(2) {
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+<!--        <span>我是span</span>-->
+        <p>我是p</p>
+        <span>我是span</span>
+        <span>我是span</span>
+        <span>我是span</span>
+    </div>
+    <!-- ul 里面我们只允许放li  所以 nth-child 和 nth-of-type 就一样了 -->
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</body>
+
+</html>
