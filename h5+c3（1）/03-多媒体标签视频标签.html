@@ -14,7 +14,13 @@
 </head>
 
 <body>
-     <video src="media/video.mp4" controls="controls"></video>
+<!--     <video src="media/video.mp4" controls="controls"></video>-->
+    <!-- 谷歌浏览器把自动播放功能给禁用了 有解决方案： 给视频添加静音属性 -->
+    <video autoplay muted="muted" loop="loop">
+        <source src="media/video.mp4" type="video/mp4" />
+        <source src="media/video.ogg" type="video/ogg" />
+        您的浏览器太low了，不支持播放此视频
+    </video>
 </body>
 
 </html>
