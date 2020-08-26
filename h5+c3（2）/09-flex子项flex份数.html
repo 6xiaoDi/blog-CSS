@@ -14,6 +14,25 @@
             background-color: pink;
             margin: 0 auto;
         }
+
+        section div:nth-child(1) {
+            width: 100px;
+            height: 150px;
+            background-color: red;
+        }
+
+        section div:nth-child(2) {
+            /*占据整个剩余空间即可，无需设置宽高*/
+            flex: 1;
+            background-color: green;
+        }
+
+        section div:nth-child(3) {
+            width: 100px;
+            height: 150px;
+            background-color: blue;
+        }
+
     </style>
 </head>
 
