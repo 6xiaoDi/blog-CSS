@@ -33,3 +33,12 @@ body {
     height: 44px;
     background-color: orangered;
 }
+
+.user::before {
+    content: "";
+    display: block;
+    width: 23px;
+    height: 23px;
+    background: url(../images/sprite.png) no-repeat -59px -194px;
+    background-size: 104px auto;
+}
