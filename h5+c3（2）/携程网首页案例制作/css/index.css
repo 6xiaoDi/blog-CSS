@@ -11,6 +11,7 @@ body {
 
 /*搜索模块*/
 .search-index {
+    display: flex;
     position: fixed;
     top: 0;
     left: 50%;
@@ -21,4 +22,14 @@ body {
     min-width: 320px;
     height: 44px;
     background-color: pink;
+}
+
+.search {
+    flex: 1;
+}
+
+.user {
+    width: 44px;
+    height: 44px;
+    background-color: orangered;
 }
