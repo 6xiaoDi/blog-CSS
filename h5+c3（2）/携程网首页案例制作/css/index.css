@@ -29,6 +29,9 @@ div {
     max-width: 540px;
     min-width: 320px;
     height: 44px;
+    background-color: #F6F6F6;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
 }
 
 .search {
@@ -42,6 +45,7 @@ div {
     margin: 6px 10px;
     padding-left: 25px;
     border-redius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,.2);
 }
 
 .search::before {
@@ -71,5 +75,5 @@ div {
     background: url(../images/sprite.png) no-repeat -59px -194px;
     background-size: 104px auto;
     /*上 左右 下*/
-    margin: 4px auto 0;
+    margin: 4px auto -2px;
 }
