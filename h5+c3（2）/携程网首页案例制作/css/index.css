@@ -8,3 +8,17 @@ body {
     overflow-x: hidden;
     -webkit-tap-highlight-color: transparent;
 }
+
+/*搜索模块*/
+.search-index {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 540px;
+    min-width: 320px;
+    height: 44px;
+    background-color: pink;
+}
