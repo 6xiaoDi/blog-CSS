@@ -13,6 +13,10 @@ a {
     text-decoration: none;
 }
 
+div {
+    box-sizing: border-box;
+}
+
 /*搜索模块*/
 .search-index {
     display: flex;
@@ -25,17 +29,19 @@ a {
     max-width: 540px;
     min-width: 320px;
     height: 44px;
-    background-color: pink;
 }
 
 .search {
+    height: 26px;
+    border: 1px solid #ccc;
     flex: 1;
+    margin: 6px 10px;
+    border-redius: 5px;
 }
 
 .user {
     width: 44px;
     height: 44px;
-    background-color: orangered;
     font-size: 12px;
     text-align: center;
     color: #2eaae0;
