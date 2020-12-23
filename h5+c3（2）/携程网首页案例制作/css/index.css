@@ -39,6 +39,16 @@ div {
     border-redius: 5px;
 }
 
+.search::before {
+    content: "";
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: url(../images/sprite.png) no-repeat -59px -279px;
+    background-size: 104px auto;
+    margin: 5px;
+}
+
 .user {
     width: 44px;
     height: 44px;
