@@ -32,21 +32,27 @@ div {
 }
 
 .search {
+    position: relative;
     height: 26px;
+    line-height: 24px;
     border: 1px solid #ccc;
     flex: 1;
+    font-size: 12px;
+    color: #666;
     margin: 6px 10px;
+    padding-left: 25px;
     border-redius: 5px;
 }
 
 .search::before {
     content: "";
-    display: block;
+    position: absolute;
+    top: 5px;
+    left: 5px;
     width: 15px;
     height: 15px;
     background: url(../images/sprite.png) no-repeat -59px -279px;
     background-size: 104px auto;
-    margin: 5px;
 }
 
 .user {
