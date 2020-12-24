@@ -213,9 +213,59 @@ nav {
     background-color: #fff;
     margin: 0 4px;
     flex-wrap: wrap;
+    padding: 5px 0;
 }
 
 .subnav-entry li {
-    flex: 1;
+    flex: 20%;
 }
 
+.subnav-entry a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subnav-entry li [class^="subnav-entry-icon"] {
+    width: 28px;
+    height: 28px;
+    margin-top: 4px;
+    background: url(../images/subnav-bg.png) no-repeat 0 0;
+    background-size: 28px auto;
+}
+
+.subnav-entry li .subnav-entry-icon-icon2 {
+    background-position: 0 -28px;
+}
+
+.subnav-entry li .subnav-entry-icon-icon3 {
+    background-position: 0 -56px;
+}
+
+.subnav-entry li .subnav-entry-icon-icon4 {
+    background-position: 0 -84px;
+}
+
+.subnav-entry li .subnav-entry-icon-icon5 {
+    background-position: 0 -112px;
+}
+
+.subnav-entry li .subnav-entry-icon-icon6 {
+    background-position: 0 -139px;
+}
+
+.subnav-entry li .subnav-entry-icon-icon7 {
+    background-position: 0 -168px;
+}
+
+.subnav-entry li .subnav-entry-icon-icon8 {
+    background-position: 0 -196px;
+}
+
+.subnav-entry li .subnav-entry-icon-icon9 {
+    background-position: 0 -224px;
+}
+
+.subnav-entry li .subnav-entry-icon-icon10 {
+    background-position: 0 -252px;
+}
