@@ -135,3 +135,18 @@ ul {
 .local-nav li .local-nav-icon-icon5 {
     background-position: 0 -128px;
 }
+
+nav {
+    overflow: hidden;
+    border-radius: 8px;
+    margin: 0 4px 3px;
+}
+
+.nav-common {
+    height: 88px;
+    background-color: pink;
+}
+
+.nav-common:nth-child(2) {
+    margin: 3px 0;
+}
