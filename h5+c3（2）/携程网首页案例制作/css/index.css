@@ -17,6 +17,12 @@ div {
     box-sizing: border-box;
 }
 
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
 /*搜索模块*/
 .search-index {
     display: flex;
@@ -87,8 +93,13 @@ div {
 }
 
 .local-nav {
+    display: flex;
     height: 64px;
     background-color: #fff;
     margin: 3px 4px;
     border-radius: 8px;
+}
+
+.local-nav li {
+    flex: 1;
 }
