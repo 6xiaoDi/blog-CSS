@@ -7,6 +7,7 @@ body {
     background: #f2f2f2;
     overflow-x: hidden;
     -webkit-tap-highlight-color: transparent;
+    height: 2000px;
 }
 
 a {
@@ -204,5 +205,17 @@ nav {
 
 .nav-common:nth-child(3) {
     background: -webkit-linear-gradient(left, #34C2A9, #6CD559);
+}
+
+.subnav-entry {
+    display: flex;
+    border-radius: 8px;
+    background-color: #fff;
+    margin: 0 4px;
+    flex-wrap: wrap;
+}
+
+.subnav-entry li {
+    flex: 1;
 }
 
