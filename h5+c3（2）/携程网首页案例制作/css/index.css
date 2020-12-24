@@ -77,3 +77,11 @@ div {
     /*上 左右 下*/
     margin: 4px auto -2px;
 }
+
+.focus {
+    padding-top: 44px;
+}
+
+.focus img{
+    width: 100%;
+}
