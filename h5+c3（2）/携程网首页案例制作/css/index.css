@@ -143,10 +143,19 @@ nav {
 }
 
 .nav-common {
+    display: flex;
     height: 88px;
     background-color: pink;
 }
 
 .nav-common:nth-child(2) {
     margin: 3px 0;
+}
+
+.nav-items {
+    flex: 1;
+}
+
+.nav-items:nth-child(-n+2) {
+    border-right: 1px solid #fff;
 }
