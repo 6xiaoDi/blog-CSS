@@ -173,10 +173,36 @@ nav {
 
 .nav-items:nth-child(1) a {
     border: 0;
+}
+
+.nav-common:nth-child(1) .nav-items:nth-child(1) a {
     background: url(../images/hotel.png) no-repeat bottom center;
     background-size: 121px auto;
+}
+
+.nav-common:nth-child(2) .nav-items:nth-child(1) a {
+    background: url(../images/plane.png) no-repeat bottom center;
+    background-size: 81px auto;
+}
+
+.nav-common:nth-child(3) .nav-items:nth-child(1) a {
+    background: url(../images/travel.png) no-repeat bottom center;
+    background-size: 94px auto;
 }
 
 .nav-items:nth-child(-n+2) {
     border-right: 1px solid #fff;
 }
+
+.nav-common:nth-child(1) {
+    background: -webkit-linear-gradient(left, #FA5A55, #FA994D);
+}
+
+.nav-common:nth-child(2) {
+    background: -webkit-linear-gradient(left, #4B90ED, #53BCED);
+}
+
+.nav-common:nth-child(3) {
+    background: -webkit-linear-gradient(left, #34C2A9, #6CD559);
+}
+
