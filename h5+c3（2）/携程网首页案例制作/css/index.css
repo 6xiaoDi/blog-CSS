@@ -277,6 +277,7 @@ nav {
 }
 
 .sales-hd {
+    position: relative;
     height: 44px;
     border-bottom: 1px solid #ccc;
 }
@@ -296,4 +297,26 @@ nav {
     height: 15px;
     background: url(../images/hot.png) no-repeat 0 -20px;
     background-size: 79px auto;
+}
+
+.more {
+    position: absolute;
+    right: 5px;
+    top: 8px;
+    background: -webkit-linear-gradient(left, #FF506C, #FF6BC6);
+    border-radius: 15px;
+    padding: 3px 20px 3px 10px;
+    color: #fff;
+}
+
+.more::after {
+    content: "";
+    position: absolute;
+    top: 9px;
+    right: 9px;
+    width: 7px;
+    height: 7px;
+    border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+    transform: rotate(45deg);
 }
