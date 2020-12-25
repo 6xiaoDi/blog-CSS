@@ -271,7 +271,29 @@ nav {
 }
 
 .sales-box {
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #bbb;
     background-color: #fff;
     margin: 4px;
+}
+
+.sales-hd {
+    height: 44px;
+    border-bottom: 1px solid #ccc;
+}
+
+.sales-hd h2 {
+    position: relative;
+    text-indent: -999px;
+    overflow: hidden;
+}
+
+.sales-hd h2::after {
+    position: absolute;
+    top: 8px;
+    left: 20px;
+    content: "";
+    width: 79px;
+    height: 15px;
+    background: url(../images/hot.png) no-repeat 0 -20px;
+    background-size: 79px auto;
 }
