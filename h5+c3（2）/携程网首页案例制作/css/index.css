@@ -269,3 +269,9 @@ nav {
 .subnav-entry li .subnav-entry-icon-icon10 {
     background-position: 0 -252px;
 }
+
+.sales-box {
+    border-top: 1px solid #ccc;
+    background-color: #fff;
+    margin: 4px;
+}
