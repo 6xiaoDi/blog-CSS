@@ -18,7 +18,14 @@
         }
         
         img:hover {
-             transform: rotateZ(180deg);
+            /*transform: rotateZ(180deg); */
+            /* transform: rotate3d(x,y,z,deg); */
+            /*沿着x轴旋转*/
+            /* transform: rotate3d(1, 0, 0, 45deg);*/
+            /*沿着y轴旋转*/
+            /* transform: rotate3d(0, 1, 0, 45deg); */
+            /*沿着对角线旋转*/
+            transform: rotate3d(1, 1, 0, 45deg);
         }
     </style>
 </head>
