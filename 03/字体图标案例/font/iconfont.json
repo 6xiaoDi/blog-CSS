@@ -1,0 +1,37 @@
+{
+  "id": "1595873",
+  "name": "teach_icon",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "12650213",
+      "name": "mouse",
+      "font_class": "mouse",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    },
+    {
+      "icon_id": "12650214",
+      "name": "email",
+      "font_class": "email",
+      "unicode": "e644",
+      "unicode_decimal": 58948
+    },
+    {
+      "icon_id": "12650215",
+      "name": "smale",
+      "font_class": "smale",
+      "unicode": "e645",
+      "unicode_decimal": 58949
+    },
+    {
+      "icon_id": "12650216",
+      "name": "star",
+      "font_class": "star",
+      "unicode": "e646",
+      "unicode_decimal": 58950
+    }
+  ]
+}
