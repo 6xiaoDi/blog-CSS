@@ -1,0 +1,57 @@
+#box{
+    height: 800px;
+    width: 800px;
+    background: url(../images/bg.jpg) no-repeat;
+    padding: 93px 150px 87px 150px;
+    box-sizing: border-box;
+    font-size:18px;
+    font-family: "宋体";
+}
+#item{
+    height: 616px;
+    border: 2px solid #beafe2;
+}
+#title{
+    border-top: 120px solid #b3d4fc;
+}
+
+#mails{
+    height: 102px;
+    border-bottom: 2px solid #ebe7f6;
+    padding-top: 7px;
+    box-sizing: border-box;
+    background:#fff url(../images/item_07.jpg) no-repeat 39px 34px;
+    padding-left: 106px;
+    line-height: 91px;
+    word-spacing: 11px;
+}
+
+#mouse{
+    height: 102px;
+    border-bottom: 2px solid #ebe7f6;
+    padding-top: 12px;
+    box-sizing: border-box;
+    background:#fff url(../images/item_10.jpg) no-repeat 39px 30px;
+    padding-left: 106px;
+    line-height: 38px;
+    word-spacing: 11px;
+}
+#smile{
+    height: 102px;
+    border-bottom: 2px solid #ebe7f6;
+    padding-top: 14px;
+    box-sizing: border-box;
+    background:#fff url(../images/item_12.jpg) no-repeat 39px 33px;
+    padding-left: 106px;
+    line-height: 38px;
+    word-spacing: 11px;
+}
+#exce{
+    height: 190px;
+    padding-top: 15px;
+    box-sizing: border-box;
+    background:#fff url(../images/item_14.jpg) no-repeat 39px 32px;
+    padding-left: 106px;
+    line-height: 38px;
+    word-spacing: 11px;
+}
